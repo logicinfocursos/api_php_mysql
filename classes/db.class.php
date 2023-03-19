@@ -3,10 +3,10 @@ class DB
 {    
     public static function connect()
     {
-        $host = '212.1.209.193'; 
-        $user = 'u595063194_logicinfo';
-        $pass = 'Greenfactor01';
-        $base = 'u595063194_logicinfo';
+        $host = ''; 
+        $user = '';
+        $pass = '';
+        $base = '';
         $port = 3306;
 
         return new PDO("mysql:host={$host};dbname={$base};charset=UTF8;", $user, $pass);
